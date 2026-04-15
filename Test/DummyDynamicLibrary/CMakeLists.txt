@@ -5,7 +5,7 @@ set(TARGET_NAME DummyDynamicLibrary)
 ## Declaration of output path
 ##############################################################
 if(MSVC)
-	set(OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../../Build)
+	set(OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../../Build/Test)
 else()
 	set(OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../../Build/Test)
 endif()
